@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import Link from "next/link";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
-import { STORE_CONFIG, PAGE_LINKS } from "@/lib/co";
+import { STORE_CONFIG, PAGE_LINKS } from "@/lib/constraints";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,

@@ -18,7 +18,7 @@ import { Separator } from "@/components/ui/separator";
 import { useAuthStore } from "@/lib/stores/auth-store";
 import { signOut } from "@/lib/services/auth/auth.service";
 import { cn } from "@/lib/utils";
-import { PAGE_LINKS } from "@/lib/co";
+import { PAGE_LINKS } from "@/lib/constraints";
 import { LogIn, LogOut } from "lucide-react";
 import { useIsMobile } from "@/lib/hooks/use-mobile";
 

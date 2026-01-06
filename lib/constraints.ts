@@ -4,8 +4,7 @@ import {
   User,
   Users,
   Home,
-  Layout,
-  Settings,
+  Book,
   Instagram,
   Facebook,
   Info,
@@ -14,6 +13,8 @@ import {
 // 商店基本設定
 export const STORE_CONFIG = {
   name: "Bullet Fitness",
+  nameEng: "Bullet Fitness",
+  nameShort: "子彈",
   subtitle: "子彈骵能空間",
   catchphrase: "沒有青春紅利， 沒有濾鏡， 只有把訓練一項一項做到位。",
   description: [
@@ -42,6 +43,7 @@ export const PAGE_LINKS = [
   { label: "課程表", href: "/schedule", icon: Calendar },
   { label: "關於子彈", href: "/about", icon: Info },
   { label: "教練介紹", href: "/coach", icon: User },
+  { label: "課程介紹", href: "/course", icon: Book },
 ];
 
 // ソーシャルリンク設定

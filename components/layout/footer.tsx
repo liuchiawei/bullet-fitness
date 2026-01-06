@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { STORE_CONFIG, PAGE_LINKS, SOCIAL_LINKS } from "@/lib/co";
+import { STORE_CONFIG, PAGE_LINKS, SOCIAL_LINKS } from "@/lib/constraints";
 import Link from "next/link";
 import GlassSurface from "@/components/ui/glass-surface";
 import {

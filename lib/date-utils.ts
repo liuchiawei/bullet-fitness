@@ -15,7 +15,7 @@ import {
 import { zhTW, enUS } from "date-fns/locale";
 import type { WeekRange, TimeSlot, EventPosition } from "./types";
 import type { EventWithCategory } from "./types";
-import { STORE_CONFIG } from "./co";
+import { STORE_CONFIG } from "./constraints";
 
 // 週の開始日を月曜日に設定
 const WEEK_OPTIONS = { weekStartsOn: 1 as const };
