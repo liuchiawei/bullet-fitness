@@ -35,7 +35,7 @@ import type {
   CategoryInput,
   EventRegistrationWithUser,
 } from "@/lib/types";
-import type { DashboardTab } from "@/lib/co";
+import type { DashboardTab } from "@/lib/constraints";
 
 export default function DashboardClient() {
   // 當前選中的 tab
