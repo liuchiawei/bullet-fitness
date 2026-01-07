@@ -2,7 +2,6 @@
 
 import { motion } from "motion/react";
 import Link from "next/link";
-import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 import { STORE_CONFIG, PAGE_LINKS } from "@/lib/constraints";
 import { Button } from "@/components/ui/button";
 import {
@@ -13,8 +12,7 @@ import {
 
 export default function Hero() {
   return (
-    <BackgroundGradientAnimation>
-      <section className="w-full h-svh absolute top-0 left-0 right-0 z-10 overflow-hidden pointer-events-none select-none">
+      <section className="w-full h-svh relative overflow-hidden pointer-events-none select-none">
         {/* SUBTITLE */}
         <motion.h1
           initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
@@ -97,6 +95,5 @@ export default function Hero() {
           {STORE_CONFIG.name}
         </motion.h2>
       </section>
-    </BackgroundGradientAnimation>
   );
 }

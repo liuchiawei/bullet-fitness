@@ -3,15 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* CollaPlay カスタムフォント設定 */
-@font-face {
-  font-family: "Outfit";
-  src: url("https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.woff2")
-    format("woff2");
-  font-weight: 400 700;
-  font-display: swap;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -66,33 +57,24 @@
 /* CollaPlay Light Theme - Warm light orange and stone gray */
 :root {
   --radius: 0.75rem;
-  /* Background: Creamy stone gray */
-  --background: oklch(0.9612 0 52.59);
-  --foreground: oklch(0.1591 0.0095 52.59);
-  /* Card: Light background */
+  --background: oklch(0.9612 0 0);
+  --foreground: oklch(0.1431 0.0088 297);
   --card: oklch(0.9712 0 66.44);
   --card-foreground: oklch(0.18 0.02 52.59);
-  /* Popover: Light background */
   --popover: oklch(0.98 0.01 52.59);
   --popover-foreground: oklch(0.18 0.02 52.59);
-  /* Primary: Dark stone gray */
-  --primary: oklch(0.2686 0 52.59);
+  --primary: oklch(0.3309 0.021 289.02);
   --primary-foreground: oklch(0.9612 0.0032 52.59);
-  /* Secondary: Light stone gray */
-  --secondary: oklch(0.464 0 52.59);
+  --secondary: oklch(0.4342 0.0141 264.42);
   --secondary-foreground: oklch(0.9612 0 66.44);
-  /* Muted: Light background */
-  --muted: oklch(0.94 0.01 85);
-  --muted-foreground: oklch(0.5 0.02 260);
-  /* Accent: Orange */
-  --accent: oklch(0.755 0.1134 65.04);
+  --muted: oklch(0.8016 0.0073 124.48);
+  --muted-foreground: oklch(0.4342 0.0141 264.42);
+  --accent: oklch(0.5831 0.2019 22.15);
   --accent-foreground: oklch(0.9823 0.0029 84.56);
-  /* Destructive: Red */
   --destructive: oklch(0.65 0.2 25);
-  /* Border & Input */
-  --border: oklch(0.9 0.02 85);
+  --border: oklch(0.6392 0.0012 197.13);
   --input: oklch(0.91 0.02 85);
-  --ring: oklch(0.755 0.1134 65.04);
+  --ring: oklch(0.855 0.1134 7);
   /* Chart */
   --chart-1: oklch(0.755 0.1134 65.04);
   --chart-2: oklch(0.7 0.15 180);
@@ -112,33 +94,24 @@
 
 /* CollaPlay Dark Theme - Orange and stone gray */
 .dark {
-  /* Background: Dark stone gray */
-  --background: oklch(0.1591 0.0095 72.45);
-  --foreground: oklch(0.9612 0 72.45);
-  /* Card: Slightly lighter brown-gray */
-  --card: oklch(0.22 0.0076 84.56);
-  --card-foreground: oklch(0.95 0.01 85);
-  /* Popover: Darker brown-gray */
-  --popover: oklch(0.22 0.0076 84.56);
-  --popover-foreground: oklch(0.95 0.01 85);
-  /* Primary: Bright coral */
-  --primary: oklch(0.755 0.1134 65.04);
+  --background: oklch(0.1431 0.0088 297);
+  --foreground: oklch(0.9612 0 0);
+  --card: oklch(0.22 0.0076 0);
+  --card-foreground: oklch(0.95 0.01 0);
+  --popover: oklch(0.22 0.0076 0);
+  --popover-foreground: oklch(0.95 0.01 0);
+  --primary: oklch(0.5831 0.2019 22.15);
   --primary-foreground: oklch(0.2686 0 0);
-  /* Secondary: Darker teal */
-  --secondary: oklch(0.464 0 52.59);
+  --secondary: oklch(0.8016 0.0073 124.48);
   --secondary-foreground: oklch(0.9612 0.0032 52.59);
-  /* Muted: Darker background */
-  --muted: oklch(0.287 0.0032 52.59);
-  --muted-foreground: oklch(0.9612 0 0);
-  /* Accent: Orange */
-  --accent: oklch(0.755 0.1134 65.04);
+  --muted: oklch(0.4342 0.0141 264.42);
+  --muted-foreground: oklch(0.8016 0.0073 124.48);
+  --accent: oklch(0.5831 0.2019 22.15);
   --accent-foreground: oklch(0.9823 0.0029 84.56);
-  /* Destructive: Red */
   --destructive: oklch(0.72 0.18 25);
-  /* Border & Input */
-  --border: oklch(0.28 0.0064 72.45);
-  --input: oklch(0.36 0.007 72.45);
-  --ring: oklch(0.8094 0.1521 72.45);
+  --border: oklch(0.3309 0.021 289.02);
+  --input: oklch(0.4342 0.0141 264.42);
+  --ring: oklch(0.7294 0.1521 5);
   /* Chart */
   --chart-1: oklch(0.8094 0.1521 72.45);
   --chart-2: oklch(0.7 0.14 180);

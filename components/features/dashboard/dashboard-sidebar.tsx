@@ -16,7 +16,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { dashboardNavigationItems, DashboardTab } from "@/lib/co";
+import { dashboardNavigationItems, DashboardTab } from "@/lib/constraints";
 
 interface DashboardSidebarProps {
   activeTab: DashboardTab;
